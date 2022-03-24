@@ -14,7 +14,7 @@ dependencies = [
 requires-python = ">=3.10"
 
 [project.urls]
-Homepage = "https://github.com/hdbg/cyberkazak/"
+Homepage = "https://github.com/hdbg/cyberkozak/"
 [tool.pdm]
 
 [build-system]
