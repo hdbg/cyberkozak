@@ -1,0 +1,22 @@
+[project]
+name = "cyberkazak"
+version = "1.0"
+description = ""
+authors = [
+    {name = "hdbg", email = ""},
+]
+license-expression = "Apache2"
+dependencies = [
+    "pyrogram>=1.4.9",
+    "structlog>=21.5.0",
+    "tgcrypto>=1.2.3",
+]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/hdbg/cyberkazak/"
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517>=0.12.0"]
+build-backend = "pdm.pep517.api"
